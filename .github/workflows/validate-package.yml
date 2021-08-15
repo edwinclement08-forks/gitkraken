@@ -12,7 +12,7 @@ jobs:
 
       - name: Validate PKGBUILD
         id: validate-pkgbuild
-        uses: 2m/arch-pkgbuild-builder@master
+        uses: Azd325/arch-pkgbuild-builder@master
         with:
           target: "pkgbuild"
           pkgname: "gitkraken-aur"
