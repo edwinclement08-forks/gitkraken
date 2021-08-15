@@ -12,10 +12,11 @@ jobs:
 
       - name: Validate PKGBUILD
         id: validate-pkgbuild
-        uses: Azd325/arch-pkgbuild-builder@master
+        uses: 2m/arch-pkgbuild-builder@v1.16
         with:
           target: "pkgbuild"
           pkgname: "gitkraken"
+          command: `gitkraken --version`
 
       - name: Validate SRCINFO
         id: validate-srcinfo
