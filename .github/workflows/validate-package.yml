@@ -16,7 +16,7 @@ jobs:
         with:
           target: "pkgbuild"
           pkgname: "gitkraken"
-          command: `gitkraken --version`
+          command: "gitkraken --version"
 
       - name: Validate SRCINFO
         id: validate-srcinfo
