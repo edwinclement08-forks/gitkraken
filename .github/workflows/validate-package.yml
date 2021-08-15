@@ -15,7 +15,7 @@ jobs:
         uses: 2m/arch-pkgbuild-builder@v1.16
         with:
           target: "pkgbuild"
-          pkgname: "gitkraken"
+          pkgname: "gitkraken-aur"
           command: "gitkraken --version"
 
       - name: Validate SRCINFO
